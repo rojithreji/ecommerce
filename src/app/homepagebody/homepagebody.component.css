@@ -1,0 +1,17 @@
+
+h6{
+    color: #3898E7;
+    font-size: 15px !important;
+}
+.heading{
+    margin-top:40px;
+}
+
+@media screen and (max-width:995px){
+    .heading{
+        margin-top:2vw;
+    }
+    h6{
+        font-size: 1vw !important;
+    }
+}

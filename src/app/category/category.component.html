@@ -1,0 +1,8 @@
+<div class="main-category">
+    <div class="container sub-category">
+            <div *ngFor="let item of categoryItems" class="category-item" routerLinkActive="selected">
+                <a class="category-image"><img [src]=item.categoryImage ></a>
+                <a class="category-name" routerLink={{item.categoryLink}} [innerHtml] = "item.categoryName"></a>
+            </div>
+    </div>
+</div>

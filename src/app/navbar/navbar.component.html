@@ -1,0 +1,13 @@
+<div class="main-div animated fadeInDown" id="navbar">
+    <div class="container">
+        <a routerLink=''><img [src]="companyLogo"></a>
+        <form method="GET">
+            <input type="text" placeholder="Search for products or brands" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        <ul>
+            <li *ngFor = "let items of navbarItems"><a routerLink={{items.iconLink}} [innerHTML]="items.iconContent"></a></li>           
+        </ul>
+    </div>
+</div>
+

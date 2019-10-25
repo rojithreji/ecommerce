@@ -1,0 +1,12 @@
+<div class="main-container">
+        <div class="row container">
+            <div *ngFor ="let item of productList" class="item">
+                <img class="product-image" [src]="item.imageUrl">
+                <a routerLink="single"class="product-name" [innerHtml]="item.productName"></a>
+                <p class="max-price"><small><del>{{item.maxPrice}} AED</del></small></p>
+                <p class="price"><strong>{{item.price}} AED</strong></p>
+                <p class="off-percentage text-muted"><small>{{item.offer}}% Off</small></p>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+</div>

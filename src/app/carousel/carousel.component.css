@@ -1,0 +1,20 @@
+.container{
+   margin-top: 20px;
+}
+
+.slick-slider {  
+    width: 90%;  
+    margin: 0 auto;  
+  }  
+ .slick-slider img{
+    max-height:300px;
+ }
+
+ 
+ @media screen and (max-width:995px){
+
+    .container{
+      margin-top: 10px;
+   }
+
+ }

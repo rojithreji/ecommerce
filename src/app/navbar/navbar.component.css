@@ -1,0 +1,124 @@
+body{
+    margin:0;
+}
+img{
+    width:100px;
+}
+div{
+    background-color:#0051C6;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+h3{
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+ul{
+    display: flex;
+    list-style: none; 
+    max-width: 50%;
+    justify-content: space-evenly;
+    margin: auto 10px;
+}
+li{
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+form input{
+    border: 0;
+    border-radius: 3px 0px 0px 3px;
+    width:80%;
+    min-width: 200px;
+    padding: 8px;
+    font-size: 13px;
+
+}
+form{
+    width: 50%;
+}
+form button{
+    border: 0;
+    background-color: white;
+    width: 40px;
+    padding: 8px;
+    border-radius: 0px 5px 5px 0px;
+    color:#0051C6;
+    font-size: 13px;
+}
+.main-div{
+    box-shadow: rgba(49, 49, 49, 0.918) 0px 3px 10px;
+    display: flex;
+}
+ul a{
+    color:white !important;
+    font-weight: 500;
+}
+ul a:hover{
+    text-decoration: none;
+}
+.badge-notify{
+    background:#E42368 !important;
+    position:relative !important;
+    top: -12px !important;
+    left: -16px !important;
+}
+
+@media screen and (max-width:995px){
+
+    .main-div{
+        height: auto !important;
+    }
+    div{
+        background-color:#0051C6;
+        height: auto !important;
+        color: white;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        position: sticky;
+    }
+    h3{ 
+        margin: 0;
+        padding: 8 0px;
+    }
+    form{
+        width: 100%;
+        margin:5px 0;
+    }
+    ul{
+        max-width: 100%;
+        width:100%;
+        padding: 0;
+        margin:15px 0;
+        justify-content: center;
+    }
+    .badge-notify{
+        top: -1vw !important;
+        left: -1vw !important;
+        font-size: 1vw;
+    }
+    li{
+        font-size: 1vw;
+    }
+    h3{
+        font-size: 3vw;
+        margin-top: 2px;
+    }
+    input,button{
+        padding: 1.5vw !important;
+        font-size: 1vw !important;
+    }
+    img{
+        width: 10vw;
+    }
+}
+

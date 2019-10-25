@@ -1,0 +1,22 @@
+/* Ion.RangeSlider
+// css version 2.0.3
+// Â© 2013-2014 Denis Ineshin | IonDen.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// RangeSlider */
+productlist{
+    width: 80%;
+}
+.row{
+    justify-content: space-between;
+    margin:0;
+}
+filters{
+    width:20%;
+    margin-top:20px;
+}
+@media screen and (max-width:995px){
+
+    
+}

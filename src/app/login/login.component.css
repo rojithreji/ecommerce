@@ -1,0 +1,28 @@
+.form-check{
+    padding: 0;
+}
+.btn{
+    margin-top: 1em;
+}
+form{
+    width: 300px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+@media screen and (max-width:995px){
+    *{
+        font-size: 1vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+    .btn{
+        padding: 0.5vw 1vw;
+    }
+}

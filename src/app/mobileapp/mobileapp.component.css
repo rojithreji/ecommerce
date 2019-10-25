@@ -1,0 +1,44 @@
+a img{
+    width: 120px;
+}
+img{
+    width: 120px;
+}
+.mobile-image{
+    width:40%;
+    text-align: center;
+}
+.links-section{
+    width:40%;
+    text-align: center;
+    display: flex;
+}
+.links-sub-section{
+    margin:auto 0;
+}
+.links-row{
+    justify-content: center;
+}
+.links-row img{
+    margin: 0 5px;
+}
+.main-container{
+    margin-top: 50px;
+}
+.row{
+    justify-content: center;
+}
+@media screen and (max-width:995px){
+
+    a img,img{
+        width: 10vw;
+    }
+    p{
+        font-size:1vw;
+        margin:0
+    }
+    .main-container{
+        margin-top: 5vw;
+    }
+
+}

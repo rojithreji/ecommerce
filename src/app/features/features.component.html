@@ -1,0 +1,11 @@
+<div class="main-container container">
+    <h6>Why Shop With Us</h6>
+</div>
+<div class="container">
+    <div class="row">
+        <div *ngFor="let item of featuredItemList" class="item">
+            <img [src]="item.src">
+            <strong><p [innerHtml]="item.text"></p></strong>
+        </div>
+    </div>
+</div>

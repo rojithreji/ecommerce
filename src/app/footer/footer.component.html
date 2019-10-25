@@ -1,0 +1,32 @@
+<div class="main-container">
+    <div class="container sub-container">
+        <div class="link-section row">
+            <div *ngFor="let link of tempList" class="links-list">
+                <p [innerHtml]="link.sectionName" class="text-uppercase"></p>
+                <ul>
+                    <li *ngFor="let listItem of link.item">
+                        <a [href]="listItem.itemUrl" [innerHtml]="listItem.itemName"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="logo-section">
+                <img [src]="LogoUrl">
+            </div>
+            <div class="row">
+                <a [href]="facebookUrl"><i class="fa fa-facebook"></i></a>
+                <a [href]="instagramUrl"><i class="fa fa-instagram"></i></a>
+                <a [href]="twitterurl"><i class="fa fa-twitter"></i></a>           
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom-container">
+    <div class="container">
+        <div class="container row">
+            <small>&copy; Company Name 2019-2020</small>
+            <img [src]="cardList">
+        </div>
+    </div>
+</div>

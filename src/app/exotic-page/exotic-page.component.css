@@ -1,0 +1,15 @@
+app-exotic{
+    width: 80%;
+}
+.row{
+    justify-content: space-between;
+    margin:0;
+}
+filters{
+    width:20%;
+    margin-top:20px;
+}
+@media screen and (max-width:995px){
+
+    
+}
